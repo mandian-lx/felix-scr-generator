@@ -1,15 +1,17 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global project   felix
 %global bundle    org.apache.felix.scr.generator
 Name:          felix-scr-generator
 Version:       1.8.2
-Release:       2%{?dist}
+Release:       2.1
 Summary:       Descriptor Generator Implementation
+Group:         Development/Java
 License:       ASL 2.0
 URL:           http://felix.apache.org/
 Source0:       http://www.apache.org/dist/felix/%{bundle}-%{version}-source-release.tar.gz
 
 BuildRequires: java-devel
-BuildRequires: mvn(org.apache.felix:felix-parent)
+BuildRequires: mvn(org.apache.felix:felix-parent:pom:)
 
 BuildRequires: mvn(org.osgi:org.osgi.compendium)
 BuildRequires: mvn(org.osgi:org.osgi.core)
