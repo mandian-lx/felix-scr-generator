@@ -3,7 +3,7 @@
 %global bundle    org.apache.felix.scr.generator
 Name:          felix-scr-generator
 Version:       1.8.2
-Release:       2.1
+Release:       2.2
 Summary:       Descriptor Generator Implementation
 Group:         Development/Java
 License:       ASL 2.0
