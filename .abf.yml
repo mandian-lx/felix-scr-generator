@@ -1,3 +1,5 @@
+removed_sources:
+  org.apache.felix.scr.generator-1.8.2-source-release.tar.gz: 1ea5f844e2bea9dbe95e1c686cce11a6ab18b355
 sources:
   org.apache.felix.scr.generator-1.16.0-source-release.tar.gz: 2cabc0b3e069d238c3a1055ea2b1613a4b80a51b
-  org.apache.felix.scr.generator-1.8.2-source-release.tar.gz: 1ea5f844e2bea9dbe95e1c686cce11a6ab18b355
+
